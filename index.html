@@ -30,7 +30,8 @@ layout: default
 		<li>
 			<figure>
 				<img src="{{ post.photo }}" alt="img"/>
-				<figcaption><h3>{{ post.content | markdownify }}{{ post.caption_header}}</h3><p>{{ post.caption }}</p></figcaption>
+				<figcaption><h3>{{ post.caption_header}}</h3><p>{{ post.caption }}</p></figcaption>
+				<!--{{ post.content | markdownify }}-->
 			</figure>
 		</li>
 		{% endfor %}
