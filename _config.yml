@@ -1,7 +1,7 @@
-name: 等待与相遇
-markdown: redcarpet
-pygments: true
-permalink: /:year/:month/:title/
-url: http://xuyifan1103.com
+# Site settings
+title: 回忆那么美
+description: Modern-Blog A Elegant template for Jekyll
+keywords: Modern, Blogging, Fun
 author: 傻蛋的乌宝宝
-twitter: #
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
