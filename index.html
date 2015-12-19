@@ -13,7 +13,7 @@ layout: default
 		{% for post in site.posts %}
 		<li>
 			<figure>
-				<img src="{{ post.photo }}" alt="img"/>
+				<img src="{{ post.photo }}-preview" alt="img"/>
 				<figcaption>
 					<h3>{{ post.caption_header}}</h3>
 					<p>{{ post.caption }}</p>
@@ -30,8 +30,7 @@ layout: default
 		<li>
 			<figure>
 				<img src="{{ post.photo }}" alt="img"/>
-				<figcaption><h3>{{ post.caption_header}}</h3><p>{{ post.caption }}</p></figcaption>
-				<!--{{ post.content | markdownify }}-->
+				<figcaption>{{ post.content | markdownify }}</figcaption>
 			</figure>
 		</li>
 		{% endfor %}
