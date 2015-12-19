@@ -29,7 +29,8 @@ layout: default
 		{% for post in site.posts %}
 		<li>
 			<figure>
-				<img src="{{ post.photo }}" alt="img"/>
+				<img src="{{ post.photo }}-pic" alt="img"/>
+				 <br/>
 				<figcaption>{{ post.content | markdownify }}</figcaption>
 			</figure>
 		</li>
