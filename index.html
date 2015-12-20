@@ -50,7 +50,7 @@ layout: compress
                                 <polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon>
                                 </clipPath>
                                 </defs>
-                                <image clip-path="url(#{{ post.subtitle | slugify }})" width="1920" height="1200" xlink:href="{{ post.image }}"></image>
+                                <image clip-path="url(#{{ post.subtitle | slugify }})" width="1920" height="1200" xlink:href="{{ post.image }}-clip"></image>
                             </svg>
                             <div class="card__content">
                                 <i class="card__btn-close fa fa-times"></i>
